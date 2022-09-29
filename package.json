@@ -1,6 +1,6 @@
 {
-    "name": "Taskprog",
-    "version": "1.0.0",
+    "name": "dataplugin",
+    "version": "0.0.1",
     "main": "index.js",
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,7 +9,7 @@
     "license": "ISC",
     "repository": {
       "type": "git",
-      "url": "git+https://github.com/orgname/reponame.git"
+      "url": "git+https://github.com/Yeetusbleetus/cider-prog.git"
     },
     "bugs": {
       "url": "https://github.com/orgname/reponame/issues"
