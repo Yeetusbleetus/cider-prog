@@ -1,5 +1,7 @@
 const path = require("path")
 const {ipcMain} = require("electron")
+const writeFileSync = require('fs').writeFileSync;
+const mkdirSync = require('fs').mkdirSync;
 
 module.exports = class TaskprogMain {
     constructor(env) {
