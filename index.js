@@ -3,14 +3,13 @@ const {ipcMain} = require("electron")
 const writeFileSync = require('fs').writeFileSync;
 const mkdirSync = require('fs').mkdirSync;
 
-module.exports = class TaskprogMain {
+module.exports = class moai {
     constructor(env) {
         // Define plugin enviornment within the class
         this.env = env
         this.playing = null;
     }
 
-    // Called when the backend is ready
     onReady(win) {
         if (!existsSync(`${this.env.dir}/dist`)) {
             mkdirSync(`${this.env.dir}/dist`);
