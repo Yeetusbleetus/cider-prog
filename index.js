@@ -5,7 +5,6 @@ const mkdirSync = require('fs').mkdirSync;
 module.exports = class moai {
     constructor(env) {
         this.env = env
-        this.playing = null;
     }
     onReady(win) {
         if (!existsSync(`${this.env.dir}/dist`)) {
@@ -21,6 +20,5 @@ module.exports = class moai {
     }
     onRendererReady(win) {
         console.debug("Renderer Ready Called")
-        this.env.utils.loadJSFrontend(path.join(this.env.dir, "index.frontend.js"))
     }
 }
