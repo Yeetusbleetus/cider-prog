@@ -1,9 +1,8 @@
-class Taskprog {
+class moai {
     constructor() {
-        // Setting up a ipcRenderer channel for back end to communicate with
-        console.log("[Plugin] [Taskprog] Frontend established.")
+        console.log("Frontend established.")
     }
 }
 
 
-const TaskprogFront = new Taskprog()
+const Front = new moai()
