@@ -7,5 +7,12 @@
     },
     "author": "aarov",
     "license": "ISC",
-    "description": "Taskbar progress plugin."
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Yeetusbleetus/cider-prog.git"
+    },
+    "bugs": {
+        "url": "https://github.com/Yeetusbleetus/cider-prog/issues"
+    },
+    "description": "writes json data to a place :)"
 }
