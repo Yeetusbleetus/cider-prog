@@ -14,5 +14,6 @@
     "bugs": {
         "url": "https://github.com/Yeetusbleetus/cider-prog/issues"
     },
+    "homepage": "https://github.com/Yeetusbleetus/cider-prog#readme",
     "description": "writes json data to a place :)"
 }
